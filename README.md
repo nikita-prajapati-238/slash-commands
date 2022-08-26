@@ -2,17 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project requirements:
+## Project requirements
 User can enter any command stating with / and the command should work as per its name suggest. e.g. if we write /upper in textarea, all the previously written lines in textarea should be converted in uppercase letter.
 If user wants to add new slash command then it can be added. 
-## Assumptions:
+## Assumptions
 After typing slash commands, the existing text in textbox will be affected. Newly typed text after executing slash command will not affected.
-## Limitations:
+## Limitations
 Currently in the project we have limited number of slash commands. In future we may increase number of predefined tags.
-## Milestones:
+## Milestones
 In the first release we can provide support for some of the slash commands. We can hear review from customer for limited commands.
 Then gradually we can increase predefined slash commands.
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,6 +38,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project outcome
+Project has two predefined slash commands /upper and /lower. When selected one of the commands it will converted pre-entered text into respective case.
+reference: https://www.loom.com/share/24ff4a61b05a40adac7fddead1ea1118
